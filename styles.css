@@ -1,0 +1,117 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    min-width: 1000px;
+    font-family: Arial;
+    background-color: #f5f5f5;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 21px;
+    margin: 0 0 35px 0;
+}
+
+.main-container{
+    margin: 65px auto;
+    width: 960px;
+    position: relative;
+}
+
+    #task-list-colomn{
+        width: 470px;
+        margin-right: 20px;
+        float: left;
+    }
+
+        .task-list-container{
+            min-height: 134px;
+            background-color: #ffffff;
+            margin-bottom: 20px;
+        }
+
+            .task-list-container .title{
+                border-bottom: 1px solid #f7f7f7;
+                padding: 16px 24px 16px 21px;
+            }
+
+                .task-list-container h3{
+                    font-weight: 400;
+                    font-size: 16px;
+                    margin: 0;
+                    float: left;
+                }
+
+                .cross{
+                    margin: 0 25px;
+                }
+
+                .task-list-container .arrow{
+                    float: right;
+                    padding-top: 7px;
+                }                
+
+            .task-list-container .text{
+                padding: 10px 21px;
+                color: #8993ad;
+                font-size: 14px;
+                white-space: pre-wrap;
+            }
+
+        #empty-list{
+            color: #8993ad;
+            margin: 60px 0;
+        }
+
+            
+
+    
+    #add-new-task-colomn{
+        width: 470px;
+        float: left;
+    }
+
+        #add-new-task-container{
+            background-color: #ffffff;
+            padding: 50px 40px;
+            margin: 0;
+        }
+
+            .textarea-title{
+                font-size: 14px;
+                color: #8993ad;
+                margin-bottom: 10px;
+            }
+
+            textarea{
+                font-size: 16px;
+                font-family: Arial;
+                background-color: #f9f9f9;
+                border: 1px solid #ebebeb;
+                padding: 15px 14px;
+                width: 362px;
+                outline: none;
+                resize: none;
+                margin-bottom: 30px;
+            }
+
+            #new-task-title{
+                height: 18px;
+            }
+
+            #new-task-text{
+                height: 200px;
+            }
+
+            #add-task{
+                padding: 20px 56px;
+                font-size: 16px;
+                color:#ffffff;
+                border: none;
+                background-color: #2174fd;
+            }
+
+            #add-task:active{
+                background-color: #468dff;
+            }
+            
